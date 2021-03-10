@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    //    "target": "ES5", // this option will introduce an issue with error prototype chain with ts-loader
+    "target": "ES5"
+  }
+
+}

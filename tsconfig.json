@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "strict": true ,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+//    "skipLibCheck": true,
+    "strictPropertyInitialization": true,
+//    "types": ["jest"],
+    "baseUrl": ".",
+//    "paths": {
+//      "@shared/*": [
+//        "shared/*"
+//      ]
+//    },
+    "jsx": "react",
+  },
+  "include": [
+    "projects/*/src/**/*"
+  ],
+//  "exclude": ["node_modules"]
+}
